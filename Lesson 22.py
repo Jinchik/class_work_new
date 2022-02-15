@@ -1,4 +1,6 @@
 #Selenium WebDriver
+# https://selenium-python.readthedocs.io/api.html
+# https://www.geeksforgeeks.org/web-driver-methods-in-selenium-python/
 
 
 
@@ -12,8 +14,11 @@ from selenium import webdriver
 
 # driver_path_chrome = os.getcwd() + '\chromedriver.exe'
 driver_path_firefox = os.getcwd() + '\geckodriver.exe'
+# driver_path_edge = os.getcwd() + '\msedgedriver.exe'
 # driver = webdriver.Chrome(executable_path=driver_path_chrome)
-# driver.get('https://chromedriver.chromium.org/downloads')
+
+# driver = webdriver.Edge(executable_path=driver_path_edge)
+
 driver = webdriver.Firefox(executable_path=driver_path_firefox)
 driver.maximize_window() # Максимизирует
 # driver.set_window_size(300.100) #- размер окна

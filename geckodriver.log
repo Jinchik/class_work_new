@@ -75,16 +75,19 @@ DevTools listening on ws://localhost:61561/devtools/browser/b0fa9ded-2f52-4323-b
 1644951626739	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 JavaScript error: https://chromedriver.storage.googleapis.com/index.html?path=98.0.4758.102/, line 99: TypeError: can't access property "getElementsByTagName", node is undefined
 JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
-1:56618
-1644951851984	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "--marionette" "--remote-debugging-port" "56619" "-no-remote" "-profile" "C:\\Users\\GodSux\\AppData\\Local\\Temp\\rust_mozprofilewwg5S9"
-1644951852214	Marionette	INFO	Marionette enabled
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\GodSux\\AppData\\Local\\Temp\\rust_mozprofilewwg5S9\\search.json.mozlz4", (void 0)))
+1644953711530	Marionette	INFO	Stopped listening on port 61570
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+earchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\GodSux\\AppData\\Local\\Temp\\rust_mozprofilewwg5S9\\search.json.mozlz4", (void 0)))
 DevTools listening on ws://localhost:56619/devtools/browser/e25b6714-19cf-4352-9497-70fc706dcafc
 1644951853877	Marionette	INFO	Listening on port 56628
 1644951854026	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
-1:56785
-1644951949546	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "--marionette" "--remote-debugging-port" "56786" "-no-remote" "-profile" "C:\\Users\\GodSux\\AppData\\Local\\Temp\\rust_mozprofilePEyJe8"
+1644953712592	Marionette	INFO	Stopped listening on port 56628
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+" "-profile" "C:\\Users\\GodSux\\AppData\\Local\\Temp\\rust_mozprofilePEyJe8"
 1644951949784	Marionette	INFO	Marionette enabled
 console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\GodSux\\AppData\\Local\\Temp\\rust_mozprofilePEyJe8\\search.json.mozlz4", (void 0)))
 DevTools listening on ws://localhost:56786/devtools/browser/a38f20db-64f5-40db-9fd2-2d7d51090176
@@ -149,3 +152,13 @@ DevTools listening on ws://localhost:57256/devtools/browser/42f269c3-7b17-4c16-8
 1644952916504	Marionette	INFO	Listening on port 57264
 1644952916757	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 1644952935526	Marionette	INFO	Stopped listening on port 57264
+1644955013732	geckodriver	INFO	Listening on 127.0.0.1:52495
+1644955016769	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "--marionette" "--remote-debugging-port" "52496" "-no-remote" "-profile" "C:\\Users\\GodSux\\AppData\\Local\\Temp\\rust_mozprofilemI6cl0"
+1644955016987	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\GodSux\\AppData\\Local\\Temp\\rust_mozprofilemI6cl0\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:52496/devtools/browser/0ad8d19c-99ba-4778-860a-b54d402b3fe3
+1644955018451	Marionette	INFO	Listening on port 52510
+1644955018819	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1644955021978	Marionette	INFO	Stopped listening on port 52510
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
