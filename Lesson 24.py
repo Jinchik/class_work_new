@@ -170,3 +170,19 @@ time.sleep(2)
 ex35_e_xpath ='/html/body/div[2]/main/cach/div[3]/div[35]/div[3]/div[5]/div/img'
 button_ex35 = driver.find_element('xpath',ex35_e_xpath)
 button_ex35.click()
+
+
+for i in range(1,36):
+    universal_xpath = f'/html/body/div[2]/main/cach/div[3]/div[{str(i)}]/div[3]/div[{str(random.randint(1,6))}]/div/img'
+    button_uni = driver.find_element('xpath', universal_xpath)
+    button_uni.click()
+
+
+
+d = {'1':'1','2':'3','3':'2'}
+for k in d:
+    universal_xpath = f'/html/body/div[2]/main/cach/div[3]/div[{str(k)}]/div[3]/div[{str(d[k])}]/div/img'
+    button_uni = driver.find_element('xpath', universal_xpath)
+    button_uni.click()
+
+
