@@ -1,4 +1,5 @@
 class Mobile:
+    ram = 5
     model = 'Xiaomi Mi10'
     color = 'Grey'  # public
     _os = 'Android'  # protected
@@ -9,6 +10,10 @@ class Mobile:
     def __init__(self):
         self.__IMEI = Mobile.__IMEI
         Mobile.__IMEI = Mobile.__IMEI + 1
+    def show_color(self):
+        print(self.color)
+    def change_color(self, new_color):
+        self.color = new_color
 
     def charge(self):
         print('Charging....')
@@ -54,12 +59,23 @@ class Mobile:
             print('ПОТРАЧЕНО')
         else:
             print('OK')
+
+class PC:
+    ram = 4
+    hdd = 500
+    cpu = 2.2
+
+class Tablet(Mobile, PC):
+    pass
+
 class IPhone(Mobile):
     model = 'Iphone'
     _os = 'IOS'
 
     def itunes():
         print('My music')
+
+
 my_phone = Mobile()
 # my_phone.__change_ram(4)
 # s = str()
@@ -95,3 +111,7 @@ my_phone.IMEI_checker()
 apple = IPhone
 print(apple._os)
 apple.itunes()
+
+
+IPad = Tablet()
+print(IPad.ram)
