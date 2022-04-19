@@ -568,13 +568,71 @@ JavaScript warning: https://dumskaya.net/, line 951: unreachable code after retu
 JavaScript error: https://dumskaya.net/, line 940: TypeError: can't access property "clientHeight", g(...) is null
 JavaScript warning: https://dumskaya.net/, line 635: unreachable code after return statement
 JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
-loper Edition\\firefox.exe" "--marionette" "--remote-debugging-port" "59415" "-no-remote" "-profile" "C:\\Users\\GodSux\\AppData\\Local\\Temp\\rust_mozprofile9gVwiN"
-1645557511346	Marionette	INFO	Marionette enabled
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\GodSux\\AppData\\Local\\Temp\\rust_mozprofile9gVwiN\\search.json.mozlz4", (void 0)))
-DevTools listening on ws://localhost:59415/devtools/browser/aecbc396-51db-4705-b250-e4cbb277e169
-1645557513042	Marionette	INFO	Listening on port 59422
-1645557513160	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-JavaScript warning: https://dumskaya.net/, line 635: unreachable code after return statement
-JavaScript warning: https://dumskaya.net/, line 951: unreachable code after return statement
-JavaScript error: https://dumskaya.net/, line 940: TypeError: can't access property "clientHeight", g(...) is null
-JavaScript warning: https://dumskaya.net/, line 635: unreachable code after return statement
+1645558262773	Marionette	INFO	Stopped listening on port 59319
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Child][PContentChild] Error: Send(msgname=PContent::Msg_InsertNewFocusActionId) Closed channel: cannot send/recv
+
+
+###!!! [Child][PContentChild] Error: Send(msgname=PContent::Msg_InsertNewFocusActionId) Closed channel: cannot send/recv
+
+
+###!!! [Child][PContentChild] Error: Send(msgname=PContent::Msg_InsertNewFocusActionId) Closed channel: cannot send/recv
+
+
+###!!! [Child][PContentChild] Error: Send(msgname=PContent::Msg_InsertNewFocusActionId) Closed channel: cannot send/recv
+
+
+###!!! [Child][PContentChild] Error: Send(msgname=PContent::Msg_InsertNewFocusActionId) Closed channel: cannot send/recv
+
+
+###!!! [Child][PContentChild] Error: Send(msgname=PContent::Msg_InsertNewFocusActionId) Closed channel: cannot send/recv
+
+
+###!!! [Child][PContentChild] Error: Send(msgname=PContent::Msg_InsertNewFocusActionId) Closed channel: cannot send/recv
+
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1105: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\GodSux\AppData\Local\Temp\rust_mozprofileVstegh\protections.sqlite
+
+###!!! [Child][PContentChild] Error: 
+###!!! [Child][PContentChild] Error: Send(msgname=PContent::Msg_InsertNewFocusActionId) Closed channel: cannot send/recv
+
+
+###!!! [Child][PContentChild] Error: Send(msgname=PContent::Msg_InsertNewFocusActionId) Closed channel: cannot send/recv
+
+
+###!!! [Child][PContentChild] Error: Send(msgname=PContent::Msg_InsertNewFocusActionId) Closed channel: cannot send/recv
+
+
+###!!! [Child][PContentChild] Error: Send(msgname=PContent::Msg_InsertNewFocusActionId) Closed channel: cannot send/recv
+
+
+###!!! [Child][PContentChild] Error: Send(msgname=PContent::Msg_InsertNewFocusActionId) Closed channel: cannot send/recv
+
+
+###!!! [Child][PContentChild] Error: Send(msgname=PContent::Msg_InsertNewFocusActionId) Closed channel: cannot send/recv
+
+
+###!!! [Child][PContentChild] Error: Send(msgname=PContent::Msg_InsertNewFocusActionId) Closed channel: cannot send/recv
+
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1105: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\GodSux\AppData\Local\Temp\rust_mozprofile9gVwiN\protections.sqlite
+
+###!!! [Child][PContentChild] Error: Send(msgname=PContent::Msg_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Child][PContentChild] Error: Send(msgname=PContent::Msg_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Child][PContentChild] Error: Send(msgname=PContent::Msg_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Child][PContentChild] Error: Send(msgname=PContent::Msg_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Child][PContentChild] Error: Send(msgname=PContent::Msg_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Child][PContentChild] Error: Send(msgname=PContent::Msg_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Child][PContentChild] Error: Send(msgname=PContent::Msg_DiscardBrowsingContext) Closed channel: cannot send/recv
+
